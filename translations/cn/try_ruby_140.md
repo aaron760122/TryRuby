@@ -1,13 +1,13 @@
 ---
-lang:   EN
-title:  Tucking a List Away
+lang:   CN
+title:  把列表保存起来
 answer: ^\[(\d+)(,\s*\d+){2,}\]$
-ok:     Saved!
+ok:     已保存!
 error:  
 ---
 
-Good, good. But it's annoying to have to retype that list every time you need it, isn't it?
+不错，不错。 但每次需要时都需要重新输入列表实在是太烦人了，不是吗？
 
-Let's save our numbers inside a ticket like so: 
+让我们把我们的数字保存在一个ticket中，像这样： 
 
     ticket = [12, 47, 35]
