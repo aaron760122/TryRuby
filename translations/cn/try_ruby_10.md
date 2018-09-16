@@ -1,5 +1,5 @@
 ---
-lang:   EN
+lang:   CN
 title:  你有30分钟的时间吗? 马上试一试Ruby吧!
 answer: 
 class:  stretcher chapmark
