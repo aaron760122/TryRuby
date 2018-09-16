@@ -1,27 +1,26 @@
 ---
-lang:   EN
-title:  Putting it differently
+lang:   CN
+title:  换一种方式
 answer: ^[0-9\.,-]{1,}$
-ok:     Well put
+ok:     非常好
 error:
 ---
 
-Did you notice that if you typed more than one formula you only saw the answer for the last one.
-What is going on?
+你是否注意到，当你键入多个公式时，你却只能看到最后一个公式的答案。
+这是怎么回事？
 
-> To make this website easier to use I have told Ruby to copy the result of your program to the
-> output screen at the top. So when you type a formula you get to see the results.
-> __But only the last result.__ And only if the output is still empty.
+> 为了让这个网站更容易使用，我让 Ruby  复制程序的结果到右侧顶部的“Output”输出屏幕。这样，当你键入公式时，你就能看到结果。
+> __但只有最后公式的结果。__ 其它公式的结果在输出屏幕还是没有。
 
-So when you entered 2 or more formula's, Ruby only showed the result of the last formula.
+所以，当你输入2个或更多公式时，Ruby只显示最后一个公式的结果。
 
-Of course you have the power to control the screen! Just type __puts__ before each formula
-(with a space in between). Puts means: *'put something on the screen'*.
+当然你是有办法控制屏幕的! 只要在每个公式前键入 __puts__ （中间有一个空格）
+你可以这样理解Puts的意思，就是: *'把东西放到屏幕上'*.
 
-Try this:
+再尝试输入下面的公式:
 
     puts 4 * 10
     puts 5 - 12
     puts 30 / 4
 
-Now remove the puts from the last formula and see what happens.
+现在把最后一个公式前面的puts去掉，看看发生了什么？
