@@ -1,18 +1,18 @@
 ---
-lang:   EN
-title:  Standing in Line
+lang:   CN
+title:  排队啦
 answer: ^\[(\d+)(,\s*\d+){3,}\]$
-ok:     Excellent
-error:  Try adding a fourth number to the list
+ok:     太棒了！
+error:  尝试在列表中增加第4个数字。
 ---
 
-Lists (arrays) store things __in some order__.
+列表 (arrays) 按 __一定的顺序__存储事物。
 
-Like standing in line for popcorn. You are behind someone and you wouldn't dream of pushing them aside,
-right? And the guy behind you, you've got a close eye on him, right?
+就像排除买爆米花。你站在一个人的后面，你不会梦想着把他推到一边，对吧？
+并且你已经密切关注你后面的家伙, 怕他抢占了你的位置，对吧?
 
-Here's a list for you. Lottery numbers: 
+这是给你的清单。 彩票号码： 
 
     [12, 47, 35]
 
-Try adding a number to this list: type a comma after 35 followed by a number. The space is optional.
+尝试在这个列表中加上一个数字: 在35之后输入一个","，接着输入一个数字。加不加空格是可以随意选择的。
