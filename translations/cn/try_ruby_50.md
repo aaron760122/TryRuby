@@ -1,6 +1,6 @@
 ---
 lang:   CN
-title:  说出你的名字
+title:  显示你的名字
 answer: [a-zA-Z]{1,1}
 ok:     太棒了, 你已经用你名字的字母排列成一个字符串。
 error:  
