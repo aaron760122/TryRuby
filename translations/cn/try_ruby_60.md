@@ -1,16 +1,15 @@
 ---
-lang:   EN
-title:  Say Your Name Backwards
+lang:   CN
+title:  倒着显示你的名字
 answer: \w+
-ok:     dooG
+ok:     ！了棒太
 error:  
 ---
 
-A string is a set of characters the computer can process. Imagine the letters are on a string of
-laundry line and the quotes are clothespins holding the ends. The quotes mark the beginning and end.
+字符串是计算机可以处理的一组字符。想象一下，字母是晾衣架上的绳子，引号是绳子两端的衣服夹子。 引号""标记着开始和结束。
 
-To reverse your name, type: 
+要翻转你的名字，请键入： 
 
     "Jimmy".reverse
 
-(Don't forget the dot!)
+(不要忘了中间这个小圆点"."!)
