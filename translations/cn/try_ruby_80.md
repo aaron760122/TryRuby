@@ -1,17 +1,17 @@
 ---
-lang:   EN
-title:  On Repeat
+lang:   CN
+title:  重复
 answer: (\w+)
-ok:     Nice to meet you.Nice to meet you.Nice to meet you.
+ok:     很高兴认识你！很高兴认识你！很高兴认识你！
 error:  
 ---
 
-Now, you're probably wondering what any of this is good for.
+现在，你可能想知道这样有什么好处。
 
-Well, I'm sure you've been to a website that screamed, __Hey, your password is too short!__
+好吧，我确认你曾经去过这样一个网站，它对你大叫 __Hey, 你的密码太短了!__
 
-See, some programs use that simple __.length__ code.
+看吧, 某些程序使用太简单的 __.length__ 代码。
 
-Watch this. Let's multiply your name by 5. 
+这样，我们用你的名字乘以5。 
 
     "Jimmy" * 5
