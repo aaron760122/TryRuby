@@ -1,24 +1,24 @@
 ---
-lang:   EN
-title:  Saved, Tucked Away
+lang:   CN
+title:  保存,  收藏起来
 answer: \[12, 35, 47\]
 load:   ticket = [12, 47, 35]
-ok:     You've sorted the list
+ok:     你已经对列表进行了排序
 error:  
 ---
 
-You've hung on to your lotto numbers, tucking them away inside a __variable__ called ticket.
-But any other name, like _jimmyslist_, would have been fine to.
+你已经收好了你的彩票号码，把它们存入一个叫ticket的 __variable(变更)__中。 
+除此之外的其它名字, 比如 _jimmyslist_, 也是可以的。
 
-Programming, you will discover, is mostly about working with variables.
+什么是编程？你将发现, 它主要是关于如何使用variable(变量)。
 
-Let's put your lotto numbers in order, how about?
+让我们把你的彩票号码排序，怎么样?
 
-Use: 
+使用: 
 
     ticket.sort!
     
-You had a list. You sorted the list. The ticket variable is now changed.  
-Did you notice that the _sort!_ method has a big, bright exclamation at the end?  
-A lot of times Ruby methods shout like that if they alter the variable for good.
-It's nothin special, just a mark.
+你有了一个列表，你也给这个列表排了顺序。这个ticket的变量(variable)现在已经改变了。  
+你有没有注意到这个 _sort!_ 方法(method)的后面有一个大的惊叹号"!"?   
+在很多时候，用Ruby的方法(methods)改变变量会这样大叫。这
+没什么特别的，只是一个标记罢了。
