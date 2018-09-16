@@ -1,34 +1,33 @@
 ---
-lang:   EN
-title:  Elemental
+lang:   CN
+title:  元素
 answer: ^(12|35|47)$
 load:   ticket = [12, 47, 35]
-ok:     Ok
+ok:     不错
 error:  Almost
 ---
 
-So we stored our lotto numbers inside variable ticket. How to get 'em out again?
+所以我们把彩票号码存在变量ticket中。怎么样再把他们拿出来呢？
 
-We already saw that we can get the highest number with __max__. Similarly you can
-get the __first__ or the __last__ element of the list.
-But what if you want a specific element?
+我们已经看到我们可以用 __max__ 方法得到最大的数字。同样你也可以得到列表中的 第一个 __first__ 或 最后一个 __last__ 元素(element)。
+但是如果你想要一个特定的元素呢？
 
 ### [ ]
-Ruby uses the square brackets [ ] to target an element.
-The square brackets are very common in Ruby.
-They are like sights used to line up a target. Exactly.
-These brackets mean, "I am looking for ____" Ready, aim.
+Ruby 使用方括号 [ ] 来把一个元素做为目标对象。
+方括号在Ruby中是非常常见的。
+它们就像一排瞄准的目标。非常准确。
+这些括号表示, "我正在寻找 ____" 准备，开火。
 
-Let's get all of our lotto numbers:
+让我们得到我们所有的彩票号码：
 
     puts ticket[0]
     puts ticket[1]
     puts ticket[2]
 
-Why do we use [0], [1], [2]?
+我们为什么使用 [0], [1], [2]?
 
-And not [1], [2] and [3]? Is that some kind of Japanese Zen thing?
-No, we computer people just like to begin counting from zero. It's not just a Ruby thing,
-this _zero based indexing_ is used in most programming languages.
+而不是 [1], [2] and [3]? 这和日本宗教有关吗?
+不是, 我们的计算机人员只是想从零开始计算. 不仅Ruby是这样,
+这个基于零开始的索引习惯用在大多数的编程语言中。
 
-> A little reminder: you can use the __Copy__ button to copy the example code to the editor.
+> 小提示: 你可以使用 __Copy__ 按钮复制示例代码到编辑窗口中。
