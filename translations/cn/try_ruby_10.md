@@ -9,17 +9,17 @@ error:
 
 Ruby是一种来自日本的变革性的软件开发语言。
 
-The beauty of Ruby is found in its balance between simplicity and power.
+Ruby的优势在于它在简单与功能强大之间取得了平衡。
 
-You can type some Ruby code in the editor and use these buttons to navigate:
+您可以在编辑器中键入一些Ruby代码，并使用这些按钮进行操作：
 
-- __Run__ &rarr; Executes the code in the editor
-- __Copy__ &rarr; Copies the example code to the editor
-- __Next__ &rarr; Allows you to go to the next lesson
-- __Back__ &rarr; Allows you to return to the previous lesson
-- __Clear__ &rarr; Clears the editor
+- __Run__ &rarr; 执行编辑器中的代码
+- __Copy__ &rarr; 将示例代码复制到编辑器
+- __Next__ &rarr; 转到下一课
+- __Back__ &rarr; 返回上一课
+- __Clear__ &rarr; 清空编辑器
 
-Use the 'world' button <span aria-hidden="true" class="glyphicon glyphicon-globe"></span>
-above to change TryRuby's language.
+您可以使用左上角的'世界' 按钮 <span aria-hidden="true" class="glyphicon glyphicon-globe"></span>
+来选择 TryRuby教程的语言。
 
-### Click on __Next__ to start learning.
+### 单击 __Next__ to 开始你的学习之旅吧！
