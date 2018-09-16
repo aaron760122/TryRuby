@@ -1,15 +1,15 @@
 ---
-lang:   EN
-title:  Stop, You're Barking Mad!
+lang:   CN
+title:  停下来, 你疯了吗!
 answer: ^\d{1,}$
-ok:     Only strings can be reversed
+ok:     只有字符串才可以被翻转。
 error:  
 ---
 
-You can't reverse the number forty. I guess you can hold your monitor up to the mirror, but reversing a number just doesn't make sense.
+你不能翻转"40"这个数字。 我想你可以把显示器拿到镜子前，但这样倒转一个数字是没有意义的。
 
-Ruby has tossed an error message. Ruby is telling you there is no method reverse for numbers.
+Ruby 已经给出了一个错误的信息。 Ruby 告诉你数字不能用"reverse"的方法翻转。
 
-Maybe if you turn the number into a string first:
+或许你可以先把数字转换成字符串：
 
     40.to_s.reverse
