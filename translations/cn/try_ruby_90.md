@@ -1,30 +1,28 @@
 ---
-lang:   EN
-title:  Hey, Summary #1 Already
+lang:   CN
+title:  嗨，总结 #1 
 answer: ^NoMethodError(.*)$
 class:  stretcher chapmark
-ok:     Nope, it is not possible to reverse a number. Click 'next'
+ok:     不，它不可能翻转一个数字。 点击 'next'
 error:  
 ---
 
-Let's look at what you've learned in the first minute.
+让我们看一下你在第一分钟学到了什么。
 
-### The editor
-Typing code into the editor and clicking on run gives you an answer in the ouput window.
-(Almost) all code gives an answer.
+### The editor（编辑窗）
+在编辑窗口中键入代码，然后点击运行按钮“run”,会在“Output”窗口中会给你一个答案。 
+(几乎) 所有的代码都会给出一个答案。
 
-### Numbers and strings
-Numbers and strings are Ruby's math and text objects.
+### Numbers and strings（数字和字符串）
+数字和字符串是Ruby的数学和文本对象。
 
-### Methods
-You've used English-language methods like reverse and length. And symbolic methods like the
-multiplication method: \*  
-__Methods mean action!__
+### Methods（方法）
+你已经使用了 英文格式的 methods(方法)，比如 "reverse" 和 "length"。 还有符号 methods(方法) 比如乘法methods(方法): \*  
+__Methods 方法意味着行动!__
 
-This is the essence of your learning. Taking simple things, toying with them and turning them into
-new things. Feeling comfortable yet? I promise you are.
+这是你学习的本质。 找一个简单的事, 与它们玩耍并把它们变成新的东西。 感觉还不错吧? 我保证是这样的。
 
 ## Okay,
-let's do something uncomfortable. Try reversing a number:
+让我们做些不舒服的事。 尝试翻转一个数字:
 
     40.reverse
