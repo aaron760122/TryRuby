@@ -1,19 +1,18 @@
 ---
-lang:   EN
-title:  Using the editor
+lang:   CN
+title:  使用编辑器
 answer: ^\d{1,}$
-ok:     Good! You did a bit of math. See how the answer popped out?
-error:  Type 2 + 6 in the editor
+ok:     不错! 你做了一些数字题。 看一下答案是如何突然出现的？
+error:  在编辑器中键入 2 + 6
 ---
 
-The editor window at the bottom is where you type your Ruby code, hit the __Run__ button and
-watch it run!
+右侧下面的编辑器窗口“Editor”是你键入Ruby代码的地方, 点击 the __Run__ button 然后观察它的运行!
 
-For example, try typing some math. Like:
+例如，试着键入一些数字题。 就象：
 
     2 + 6
 
-The output of your program should show itself at the output window at the top.
-There should also be a line that tells you how well you did.
+程序的输出结果应该显示在顶部的输出窗口“Output”。
+还应该有一行文字告诉你你的表现如何。
 
-> Alternatively you can hit the __Copy__ button to copy the example code to the editor.
+> 或者你也可以直接点击 __Copy__ 按钮把示例代码复制到编辑器中。
