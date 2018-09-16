@@ -1,12 +1,12 @@
 ---
-lang:   EN
-title:  Numbers and Math
+lang:   CN
+title:  数字和数学
 answer: ^[0-9\.,-]{1,}$
-ok:     Good
+ok:     太棒了！
 error:  
 ---
 
-Ruby recognizes numbers and mathematic symbols. You could try some other math like:
+Ruby 可以识别数字和数学运算符号。 你可以尝试一些其它的数学运算，比如：
 
     4 * 10
     5 - 12
