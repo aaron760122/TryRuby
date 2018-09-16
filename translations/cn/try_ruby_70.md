@@ -1,13 +1,13 @@
 ---
-lang:   EN
-title:  Counting the Letters
+lang:   CN
+title:  统计字母的个数
 answer: ^\d+$
-ok:     Yep. Length is also a 'method'
+ok:     是的。 Length 也是一种 'method'。
 error:  
 ---
 
-You have used the reverse __method__ on your name! By enclosing your name in quotes, you made a string. Then you called the reverse method, which works on strings to flip all the letters backwards.
+我们已经在你的名字上使用了 reverse __method__ ! 通过将你的名字在引号中引用，你创建了一个字符串。 然后你调用了"reverse" __method__(方法), 它作用于字符串向后翻转所有字母。
 
-Now, let us see how many letters are in your name:
+现在，让我们看一下有多少字母在你的名字里：
 
     "Jimmy".length
