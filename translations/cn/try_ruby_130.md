@@ -1,12 +1,12 @@
 ---
-lang:   EN
-title:  One Raises Its Hand
+lang:   CN
+title:  有一个举起了手
 answer: ^47$
-ok:     Okay
+ok:     不错，答对了！
 error:  
 ---
 
-A list of lottery numbers. Which one is the highest?
+这是一个彩票号码列表。 哪一个最大?
 
 Try: 
 
