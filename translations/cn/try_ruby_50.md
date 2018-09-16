@@ -1,13 +1,13 @@
 ---
-lang:   EN
-title:  Say Your Name
+lang:   CN
+title:  说出你的名字
 answer: [a-zA-Z]{1,1}
-ok:     Perfect, you've formed a string from the letters of your name
+ok:     太棒了, 你已经用你名字的字母排列成一个字符串。
 error:  
 ---
 
-Sure, computers are handy and fast for math. Let's move on. Want to see your name reversed?
+当然, 计算机对于数字是非常方便快捷的。让我们接着来。 你想看到你名字的字母反过来吗？
 
-First type your first name in quotes like this:
+首先键入你的名字并加上引号“” ，就像这样:
 
     "Jimmy"
