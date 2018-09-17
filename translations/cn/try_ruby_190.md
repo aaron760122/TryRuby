@@ -1,16 +1,14 @@
 ---
-lang:   EN
-title:  Sadly, You Hate Toast Poetry
+lang:   CN
+title:  太伤心了, 你讨厌关于面包的诗
 answer: (toast){0}
 load:   prev
-ok:     Excellent
-error:  Still smells like toast to me
+ok:     太棒了！
+error:  怎么闻着还是烤面包的味道？
 ---
 
-Look, it's okay. You don't have to like it. Hack it up, be my guest. Instead of toast, go for a
-melon or something. Try this to see the new poem:
+看, 没关系啦.你不用非得喜欢它。 别客气，把它扔掉。找个甜瓜或其它东西，用来替代面包。 试试这首新的诗:
 
     poem.gsub("toast", "honeydew")
 
-The __gsub__ method is short for global substitute. It replaces all occurences of "toast" with
-"honeydew".
+The __gsub__ method(方法)是全局替代的缩写。 它用"honeydew" 替代了所有的 "toast" 。
