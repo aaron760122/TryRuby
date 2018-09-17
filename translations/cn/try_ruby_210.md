@@ -1,17 +1,17 @@
 ---
 lang:   EN
-title:  Too Much Reversal
+title:  翻转的太多了
 answer: ^\["More still did (.+)
 load:   prev
-ok:     Yes, almost what we want
+ok:     是的，这就是我们想要的。
 error:  
 ---
 
-So the whole poem's been turned backwards, letter-by-letter. I really wanted to just reverse the lines though.
-Move the last line up to first and the first line down to last.
+整首诗都被逐字逐句的反转过来！我只是想把每一行翻转过来而已。
+把最后一行向上移到第一行，把第一行向下移到最后一行。
 
-Backwards, but not __that__ backwards.
+换句子顺序, 但不是这样每个字都反过来。
 
-Here's how:
+看看这样如何:
 
     poem.lines.reverse
