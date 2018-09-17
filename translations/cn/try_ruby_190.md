@@ -11,4 +11,4 @@ error:  怎么闻着还是烤面包的味道？
 
     poem.gsub("toast", "honeydew")
 
-The __gsub__ method(方法)是全局替代的缩写。 它用"honeydew" 替代了所有的 "toast" 。
+这个"__gsub__" method(方法)是全局替代的缩写。 它用"honeydew" 替代了所有的 "toast" 。
